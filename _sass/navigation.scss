@@ -61,3 +61,16 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
+
+/*
+.transition-scroll {
+  transition: 500ms;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+html.is-animating .transition-scroll {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+*/

@@ -5,6 +5,7 @@ body { margin: 0; padding: 0; }
 
 .maintitle a { text-decoration: none; color: white; }
 
+/* .transition-fade { opacity: 1; transition: 750ms; } html.is-animating .transition-fade { opacity: 0; } */
 body { transition: background-color .5s; }
 
 .topbar { background: purple; display: flex; flex-flow: row wrap; justify-content: space-between; padding: 0; margin: 0; list-style: none; color: white; }
@@ -22,5 +23,7 @@ body { transition: background-color .5s; }
 .sidenav a:hover { color: #800080; }
 
 #main { transition: margin-left .5s; padding: 16px; }
+
+/* .transition-scroll { transition: 500ms; transform: translateY(0); opacity: 1; } html.is-animating .transition-scroll { opacity: 0; transform: translateY(-50px); } */
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/games.html</loc>
+<loc>http://localhost:4000/games/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/stories.html</loc>
+<loc>http://localhost:4000/stories/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/node_modules/delegate/demo/delegate.html</loc>
+<lastmod>2017-05-29T14:53:26-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/node_modules/delegate/demo/multiple.html</loc>
+<lastmod>2017-05-29T14:53:26-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/node_modules/delegate/demo/undelegate.html</loc>
+<lastmod>2017-05-29T14:53:26-04:00</lastmod>
 </url>
 </urlset>
