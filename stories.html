@@ -5,5 +5,11 @@ permalink: /stories/
 ---
 
 <div id = "main">
-  gaga googoo
+  <div>
+    <ul class = "container">
+      {% for post in site.posts %}
+        <li class = "container-item"><h2><a href="{{post.url}}">{{post.title}}</a></h2></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

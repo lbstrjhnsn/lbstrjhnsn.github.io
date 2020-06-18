@@ -8,7 +8,7 @@ body { margin: 0; padding: 0; }
 /* .transition-fade { opacity: 1; transition: 750ms; } html.is-animating .transition-fade { opacity: 0; } */
 body { transition: background-color .5s; }
 
-.topbar { background: purple; display: flex; flex-flow: row wrap; justify-content: space-between; padding: 0; margin: 0; list-style: none; color: white; }
+.topbar { background: purple; display: flex; flex-flow: row nowrap; justify-content: space-between; padding: 0; margin: 0; list-style: none; color: white; }
 
 .topbar li:nth-of-type(2) { text-align: center; }
 
@@ -25,5 +25,12 @@ body { transition: background-color .5s; }
 #main { transition: margin-left .5s; padding: 16px; }
 
 /* .transition-scroll { transition: 500ms; transform: translateY(0); opacity: 1; } html.is-animating .transition-scroll { opacity: 0; transform: translateY(-50px); } */
+.container { padding: 0; margin: 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: tomato; list-style: none; }
+
+.container a { text-decoration: none; color: black; }
+
+.container li { text-align: center; }
+
+.container-item { flex: 1 0 21%; background: purple; padding: 10px; width: 20%; height: 150px; line-height: 100px; margin: 20px; text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
