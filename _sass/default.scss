@@ -1,11 +1,11 @@
 .container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, auto);
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
   align-items: center;
-  background: tomato;
   list-style: none;
 }
 
@@ -19,12 +19,8 @@
 }
 
 .container-item {
-  flex: 1 0 21%;
-  background: purple;
-  padding: 10px;
-  width: 20%;
+  margin: 10px;
   height: 150px;
-  line-height: 100px;
-  margin: 20px;
+  background: purple;
   text-align: center;
 }
