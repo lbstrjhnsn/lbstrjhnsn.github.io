@@ -1,16 +1,17 @@
 body {
   transition: background-color .5s;
+  background-color: #ffb3ff;
 }
 
 .topbar {
-  background: purple;
+  background: #400040;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;
-  color: white;
+  color: #ffe8ff;
 }
 
 .topbar li:nth-of-type(2) {
@@ -27,7 +28,7 @@ body {
 
 .topbar-item a {
   text-decoration: none;
-  color: white;
+  color: #ffe8ff;
 }
 
 .sidenav {
@@ -39,43 +40,56 @@ body {
   position: fixed;
   z-index: 1;
   left: 0;
-  background-color: #0a0a0a;
+  background-color: #590059;
   overflow-x: hidden;
   transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 10px;
+  margin-left: 25px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ffb3ff;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #800080;
+  color: #ffe8ff;
 }
 
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #400040;
+  text-align: center;
 }
 
 /*
-@keyframes slideInFromLeft {
+#sidebar-toggle {
+  margin-left: 25px;
+}
+
+/*
+@keyframes slideInFromTop {
   0% {
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
-nav {
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+.transition {
+  transition: all 5s linear 0s;
 }
 
+.slideTransition {
+
+}
 
 .transition-scroll {
   transition: 500ms;
