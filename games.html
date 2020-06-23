@@ -4,7 +4,14 @@ layout: default
 permalink: /games/
 ---
 
-<div id = "swup">
-  <div class = "transition-scroll">{% include navigation.html %}</div>
-  <div id = "main">gaga googoo</div>
+<div id = "main">
+  <h2 class = "pageHeading">Games</h2>
+  <hr>
+  <div><!--
+    <ul class = "container">
+      {% for post in site.posts %}
+        <li class = "container-item"><h2><a href="{{post.url}}">{{post.title}}</a></h2></li>
+      {% endfor %}
+    </ul>-->
+  </div>
 </div>
