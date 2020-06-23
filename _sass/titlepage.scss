@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto&display=swap');
 
 body {
   margin: 0;
@@ -11,8 +11,8 @@ body {
   height: 100%;
   font-family: 'Damion', cursive;
   font-size: 55px;
-  background-color: purple;
-  color: white;
+  background-color: #400040;
+  color: #ffe8ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@ body {
 
 .maintitle a {
   text-decoration: none;
-  color: white;
+  color: #ffe8ff;
 }
 /*
 .transition-fade {
