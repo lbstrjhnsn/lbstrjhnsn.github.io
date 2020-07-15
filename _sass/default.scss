@@ -1,13 +1,13 @@
 .container {
   display: grid;
-  width: 80%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 350px);
   grid-template-rows: repeat(auto-fill, auto);
   padding: 0;
   margin: auto;
-  align-items: center;
+  justify-content: center;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
 }
 
 .container a {
@@ -15,23 +15,24 @@
   color: #ffe8ff;
 }
 
-.container li {
-  text-align: center;
-}
-
 .container-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
   height: 150px;
   background: #800080;
-  text-align: center;
+  border-radius: 15px;
 }
 
 .pageHeading {
   font-size: 45px;
   margin-bottom: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 
-hr {
+.default-rule {
   width: 50%;
   border: 1px solid #400040;
 }
