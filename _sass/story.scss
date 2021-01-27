@@ -8,8 +8,13 @@
 }
 
 .story-rule {
-  width: 95%;
+  width: 97%;
   border: 1px solid #400040;
+}
+
+.story-break {
+  width: 100%;
+  border: 0.1px dashed #400040;
 }
 
 .storytitle {
@@ -19,4 +24,7 @@
 
 .story-content {
   font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  margin: auto 50px auto 50px;
+  padding-bottom: 20px;
 }
